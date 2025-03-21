@@ -6,7 +6,7 @@ import com.example.testgiuaky2.model.CategoryResponse;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
+//Đào Thanh Tú - 22110452
 public class CategoryMapper {
 
     // Convert from API2's CategoryResponse.CategoryResult to Category

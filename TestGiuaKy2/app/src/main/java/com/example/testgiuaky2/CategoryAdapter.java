@@ -16,6 +16,8 @@ import com.example.testgiuaky2.model.Category;
 
 import java.util.List;
 
+//Đàng Thị Thanh Hoa_22110326
+
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.MyViewHolder> {
     private Context context;
     private List<Category> categoryList;

@@ -22,6 +22,11 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+//phamdangkhoa_22110353
+//Đào Thanh Tú - 22110452
+//Nguyễn Thị Hồng Hà - 22110001
+
+
 public class HomeFragment extends AppCompatActivity {
     RecyclerView rcCate;
     CategoryAdapter categoryAdapter;

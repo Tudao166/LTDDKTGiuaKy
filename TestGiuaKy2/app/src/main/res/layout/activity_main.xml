@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     >
-
+    <!--Lại Hoàng Phúc Khải - 22110350-->
     <ImageView
         android:id="@+id/backgroundImage"
         android:layout_width="0dp"

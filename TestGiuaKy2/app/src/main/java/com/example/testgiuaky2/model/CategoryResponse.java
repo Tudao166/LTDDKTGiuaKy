@@ -3,7 +3,7 @@ package com.example.testgiuaky2.model;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
-
+//Lại Hoàng Phúc Khải - 22110350
 public class CategoryResponse {
     @SerializedName("code")
     private int code;

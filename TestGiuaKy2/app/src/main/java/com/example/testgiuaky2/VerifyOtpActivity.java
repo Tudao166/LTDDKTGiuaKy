@@ -20,7 +20,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-
+//Nguyễn Thị Nỡ_22110392
 public class VerifyOtpActivity extends AppCompatActivity {
 
     private EditText etOtp;

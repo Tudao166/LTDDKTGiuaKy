@@ -6,6 +6,10 @@ import com.example.demo.repository.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+//Đào Thanh Tú - 22110452
+//Trịnh Trung Hào - 22110316
+
+
 @Service
 public class AuthService {
 

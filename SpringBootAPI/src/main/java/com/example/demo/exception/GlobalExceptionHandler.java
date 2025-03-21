@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import java.nio.file.AccessDeniedException;
 
+//Đào Thanh Tú - 22110452
+//Trịnh Trung Hào - 22110316
+
+
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

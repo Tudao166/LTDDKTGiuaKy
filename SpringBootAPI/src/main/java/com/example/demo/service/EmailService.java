@@ -7,6 +7,10 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+//Đào Thanh Tú - 22110452
+//Trịnh Trung Hào - 22110316
+
+
 @Service
 public class EmailService {
 

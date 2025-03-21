@@ -9,6 +9,7 @@
     android:background="@color/white"
     android:orientation="vertical"
     tools:context=".HomeActivity">
+<!--    Nguyễn Thị Nỡ_22110392-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
