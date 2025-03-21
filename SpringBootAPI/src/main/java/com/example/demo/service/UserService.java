@@ -28,7 +28,6 @@ public class UserService {
 
     EmailService emailService;
 
-    // Nguyễn Công Quý - 22110403
     public UserResponse login(LoginRequest request) {
 
         UserEntity user = userRepository.findByEmail(request.getUsername());
@@ -87,7 +86,6 @@ public class UserService {
             // Gửi
             emailService.sendSimpleMail(userEntity.getEmail(), subject, body);
             // Sau khi gửi thì trả về response
-            // Nguyễn Công Quý - 22110403
             UserResponse userResponse = UserResponse.builder()
                     .fullName(newUser.getFullName())
                     .email(newUser.getEmail())
