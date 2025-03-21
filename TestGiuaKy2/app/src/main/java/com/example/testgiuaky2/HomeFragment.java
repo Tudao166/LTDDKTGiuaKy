@@ -2,6 +2,7 @@ package com.example.testgiuaky2;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.GridView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,15 +25,17 @@ import retrofit2.Response;
 
 //phamdangkhoa_22110353
 //Đào Thanh Tú - 22110452
-//Nguyễn Thị Hồng Hà - 22110001
+
 
 
 public class HomeFragment extends AppCompatActivity {
     RecyclerView rcCate;
+    GridView gridView;
     CategoryAdapter categoryAdapter;
     ApiService apiService;
     private TextView tvUserName;
     List<Category> categoryList = new ArrayList<>();
+    ProductGridAdapter myAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +50,7 @@ public class HomeFragment extends AppCompatActivity {
         rcCate = findViewById(R.id.rc_category);
         rcCate.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         tvUserName = findViewById(R.id.tvUserName); // Added from version 2
+        gridView = findViewById(R.id.gridview1);
     }
 
     // Added from version 2
@@ -74,6 +78,9 @@ public class HomeFragment extends AppCompatActivity {
 
                         // Initialize adapter and set up RecyclerView
                         categoryAdapter = new CategoryAdapter(HomeFragment.this, categoryList);
+                        myAdapter = new ProductGridAdapter(HomeFragment.this, categoryList);
+
+                        gridView.setAdapter(myAdapter);
                         rcCate.setHasFixedSize(true);
                         rcCate.setAdapter(categoryAdapter);
                         categoryAdapter.notifyDataSetChanged();
