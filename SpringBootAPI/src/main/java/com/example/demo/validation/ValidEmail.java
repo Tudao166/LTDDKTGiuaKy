@@ -1,6 +1,8 @@
 package com.example.demo.validation;
 
-// Nguyễn Công Quý - 22110403
+//Đào Thanh Tú - 22110452
+//Trịnh Trung Hào - 22110316
+
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

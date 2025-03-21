@@ -11,6 +11,10 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.util.Date;
 
+//Đào Thanh Tú - 22110452
+//Trịnh Trung Hào - 22110316
+
+
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)

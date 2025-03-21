@@ -18,7 +18,7 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
-
+/*Trịnh Trung Hào - 22110316*/
 public interface ApiService {
     @GET("api/v1/users/{id}")
     Call<User> getUser(@Path("id") int userId);

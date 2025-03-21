@@ -32,7 +32,8 @@
             android:exported="false"
             android:theme="@style/Theme.TestGiuaKy2" />
 
-       <activity
+
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.TestGiuaKy2" />

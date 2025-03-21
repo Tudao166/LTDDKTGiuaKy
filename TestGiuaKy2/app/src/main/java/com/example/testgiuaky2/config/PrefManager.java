@@ -1,7 +1,11 @@
+//Đào Thanh Tú - 22110452
+
 package com.example.testgiuaky2.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+
+
 
 public class PrefManager {
     private static final String PREF_NAME = "LoginDetails";

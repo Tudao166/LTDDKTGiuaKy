@@ -1,5 +1,6 @@
 package com.example.testgiuaky2;
 
+//Đào Thanh Tú - 22110452
 
 import android.content.Intent;
 import android.os.Bundle;

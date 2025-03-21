@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.testgiuaky2.model.ApiResponse;
 import com.example.testgiuaky2.model.User;
 import com.example.testgiuaky2.service.RegisterService;
-
+//Nguyễn Thị Nỡ_22110392
 public class RegisterActivity extends AppCompatActivity {
 
     private TextView tvLogin, tvRegister;

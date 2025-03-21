@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//Nguyễn Thị Hồng Hà - 22110001
 public class MainActivity extends AppCompatActivity {
     private Button btnStart;
     private TextView txtUserInfo;
